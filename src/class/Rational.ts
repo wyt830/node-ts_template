@@ -6,7 +6,6 @@ export class Rational {
     private denominator: number;          
         
     constructor(numerator: number, denominator: number) {
-        if (denominator === 0) throw new Error("Denominator cannot be zero.");
         this.numerator = numerator;
         this.denominator = denominator;
       }
